@@ -11,11 +11,11 @@ gem 'bootstrap-sass', github: 'thomas-mcdonald/bootstrap-sass', branch: '3'
 
 group :development, :test do
 	gem 'sqlite3'
-	gem 'rails_12 factor'
 end
 
 group :production do
 	gem 'pg'
+	gem 'rails_12 factor'
 end
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
